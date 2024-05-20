@@ -1,4 +1,4 @@
-package com.meteoricmind.optional.demo1;
+package com.meteoricmind.optional.problem;
 
 public class Student {
 
