@@ -3,6 +3,7 @@ package com.meteoricmind.optional.demos;
 import java.util.Optional;
 
 public class Demo5 {
+
 	public static void main(String[] args) {
 		// Optional. ofNullable() method
 		String str = "Srinivas";
@@ -16,5 +17,6 @@ public class Demo5 {
 		} else {
 			System.out.println("6. No value Found");
 		}
+	
 	}
 }
