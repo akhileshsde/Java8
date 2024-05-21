@@ -15,8 +15,8 @@ public class Demo6 {//
 
 		myopts.ifPresent(input -> System.out.println(input));
 		if (myopts.isPresent())
-
-			System.out.println(myopts.get().toUpperCase());
+		System.out.println(myopts.get().toUpperCase());
+		
 		myopts.ifPresent(input -> System.out.println(input.toUpperCase()));
 		System.out.println("-------------------");
 		System.out.println("Done!!!");
