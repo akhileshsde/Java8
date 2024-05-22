@@ -4,7 +4,7 @@ import java.util.Optional;
 
 public class Course {
 	private String courseName;
-	private int coursePrice;
+	private double coursePrice;
 	private Optional<Trainer> trainer;
 
 	public Course() {
@@ -25,7 +25,7 @@ public class Course {
 		this.courseName = courseName;
 	}
 
-	public int getCoursePrice() {
+	public double getCoursePrice() {
 		return coursePrice;
 	}
 
