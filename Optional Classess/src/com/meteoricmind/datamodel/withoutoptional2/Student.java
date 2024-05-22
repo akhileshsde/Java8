@@ -1,4 +1,4 @@
-package com.meteoricmind.optional.problem;
+package com.meteoricmind.datamodel.withoutoptional2;
 
 public class Student {
 
