@@ -12,10 +12,10 @@ public class Demo5 {
 				.collect(Collectors.toList());
 		newList.forEach(System.out::println);
 		System.out.println("=====================");
-		// Display the students who joined for devops and display the list in descending
+		// Display the students who joined for devops and display the list in ascending
 		List<Student> studentList2 = DataUtil.getStudentList();
 		List<Student> newList2 = studentList2.stream().filter(mystu -> mystu.getCourseName().equals("Devops"))
-				.sorted((stu1, stu2) -> stu2.getSname().compareTo(stu1.getSname())).collect(Collectors.toList());
+				.sorted((stu1, stu2) -> stu1.getSname().compareTo(stu2.getSname())).collect(Collectors.toList());
 		newList2.forEach(System.out::println);
 	}
 }

@@ -7,7 +7,7 @@ public class DataUtil {
 
 	public static List<Student> getStudentList() {
 		List<Student> studentList = new ArrayList<>();
-		Student stu1 = new Student(101, "sri", 555, "Devops", 15000, 4000);
+		Student stu1 = new Student(101, "sri", 555, "Devops", 15000, 0);
 		Student stu2 = new Student(102, "vas", 333, "MicroServices", 15000, 3000);
 		Student stu3 = new Student(103, "akb", 444, "MicroServices", 19000, 0);
 		Student stu4 = new Student(104, "sd", 767, "Devops", 3000, 2000);
