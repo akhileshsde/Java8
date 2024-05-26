@@ -13,12 +13,14 @@ public class Demo16 {
 		Optional<Integer> mycourse2 = numList.stream().findFirst();
 		mycourse2.ifPresent(System.out::println);
 		System.out.println("-------------");
-		Optional<Integer> mycourse3 = numList.stream().parallel().findAny();
+		Optional<Integer> mycourse3 =numList.stream().parallel().findAny();
 		mycourse3.ifPresent(System.out::println);
 		System.out.println("-------------");
-		Optional<Integer> mycourse4 = numList.stream().parallel().findFirst();
-		mycourse4.ifPresent(System.out::println);
-		System.out.println("-------------");
-		System.out.println("Done!!!");
+		Optional<Integer> mycourse4 =
+				numList.stream().parallel().findFirst();
+		 mycourse4.ifPresent(System.out::println);
+		 System.out.println("-------------"); 
+		 System.out.println("Done!!!");
+		
 	}
 }
