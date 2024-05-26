@@ -10,5 +10,19 @@ public class Demo2 {
 		.sorted((stu1,stu2)->stu1.getSname().compareTo(stu2.getSname()))
 		.forEach(System.out::println);
 		
+		System.out.println("====================================");
+		//Q3.Display the students  in descending order
+		studentList.stream()
+		.filter(mystu->mystu.getFeeBal()>0)
+		.sorted((stu1,stu2)->stu2.getSname().compareTo(stu1.getSname()))
+		.forEach(System.out::println);
+		
+		System.out.println("====================================");
+		//Q3.Display the students  in descending order
+				studentList.stream()
+				.filter(mystu->mystu.getFeeBal()>0 )
+				.filter(mystu->mystu.getCourseName()=="MicroServices")
+				.sorted((stu1,stu2)->stu2.getSname().compareTo(stu1.getSname()))
+				.forEach(System.out::println);
 	}
 }
