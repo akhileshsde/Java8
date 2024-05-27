@@ -13,6 +13,6 @@ public class Demo1 {
 		System.out.println(myDate1);
 		LocalDate myDate2 = LocalDate.of(2021,8,22);
 		System.out.println(myDate2);
-	}
 
+	}
 }
