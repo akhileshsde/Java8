@@ -16,7 +16,7 @@ public class DataUtil {
 		Student stu7 = new Student(107, "aaa", 5367, "MicroServices", 25000, 0);
 		Student stu8 = new Student(108, "hai", 1034, "Spring Boot", 125000, 00);
 		Student stu9 = new Student(109, "bbb", 555, "Spring Boot", 9000, 0);
-		Student stu10 = new Student(110, "yyy", 555, "Zzz", 9000, 0);
+		Student stu10 = new Student(110, "vivaan", 555, "Java8", 9000, 0);
 		studentList.add(stu1);
 		studentList.add(stu2);
 		studentList.add(stu3);
