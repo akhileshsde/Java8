@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 public class Demo9 {
 	public static void main(String[] args) {
 		// Display the student list who has fee balance
-		//Used partitioningBy
+		// Used partitioningBy
 		List<Student> studentList = DataUtil.getStudentList();
 		Map<Boolean, List<Student>> stuMap = studentList.stream()
 				.collect(Collectors.partitioningBy(stu -> stu.getFeeBal() == 0));
