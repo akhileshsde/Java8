@@ -3,7 +3,10 @@ package com.meteoricmind.stream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Demo16 {
 	public static void main(String[] args) {
 		List<Integer> numList = Arrays.asList(11, 22, 33, 44, 55, 66, 77, 88, 99);

@@ -2,7 +2,10 @@ package com.meteoricmind.stream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Demo18 {
 	public static void main(String[] args) {
 

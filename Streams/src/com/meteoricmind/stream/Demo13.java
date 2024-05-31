@@ -2,7 +2,10 @@ package com.meteoricmind.stream;
 
 import java.util.Random;
 import java.util.stream.Stream;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Demo13 {
 	public static void main(String[] args) {
 

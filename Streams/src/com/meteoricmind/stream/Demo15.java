@@ -3,7 +3,10 @@ package com.meteoricmind.stream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Demo15 {
 	public static void main(String[] args) {
 
