@@ -1,7 +1,10 @@
 package com.meteoricmind.datamodel.optional;
 
 import java.util.Optional;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Course {
 	private String courseName;
 	private double coursePrice;

@@ -1,5 +1,8 @@
 package com.meteoricmind.datamodel.optional;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Trainer {
 	private String trainerName;
 	private String trainerEmail;

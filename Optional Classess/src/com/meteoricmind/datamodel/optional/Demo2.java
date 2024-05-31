@@ -1,7 +1,10 @@
 package com.meteoricmind.datamodel.optional;
 
 import java.util.Optional;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind private Limited
+* */
 public class Demo2 {
 	public static void main(String[] args) {
 		Trainer trainer = new Trainer("Srinivas", "sri@jlc", "12345");
