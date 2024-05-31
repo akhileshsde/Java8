@@ -2,7 +2,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo17 {
 	public static void main(String[] args) {
 		// Q17) What is the Total Fee Bal to Receive Course-wise?

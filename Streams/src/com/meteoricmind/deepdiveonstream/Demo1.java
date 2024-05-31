@@ -2,7 +2,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo1 {
 	public static void main(String[] args) {
 		//Display the Student Data

@@ -2,7 +2,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo16 {
 	public static void main(String[] args) {
 		// Q16) What is the Total Fee Paid till now?

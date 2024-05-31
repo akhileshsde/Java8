@@ -3,7 +3,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo11 {
 	public static void main(String[] args) {
 		//Q11) Which Student has Paid Fee less (min) 

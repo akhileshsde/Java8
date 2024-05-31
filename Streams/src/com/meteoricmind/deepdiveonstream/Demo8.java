@@ -2,7 +2,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo8 {
 	public static void main(String[] args) {
 		// Q8) Display the Students who joined for DevOps Course in DESC Order by Name

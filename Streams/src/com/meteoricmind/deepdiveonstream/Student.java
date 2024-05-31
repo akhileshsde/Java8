@@ -1,6 +1,9 @@
 package com.meteoricmind.deepdiveonstream;
 
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Student {
 	private int sid;
 	private String sname;

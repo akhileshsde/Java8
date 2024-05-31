@@ -2,7 +2,10 @@ package com.meteoricmind.deepdiveonstream;
 
 import java.util.*;
 import java.util.stream.Collectors;
-
+/*
+* @Author : Akhilesh Bhagat
+* @Company: Meteoric Mind
+* */
 public class Demo14 {
 	public static void main(String[] args) {
 		//Q14) Display the Students who has to pay the Bal and Who Paid separately. 
